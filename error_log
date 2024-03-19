@@ -1,0 +1,7 @@
+[10-Feb-2023 20:42:47 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home3/studiog1/public_html/index.php on line 27
+[10-Feb-2023 20:51:11 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home3/studiog1/public_html/index.php on line 27
+[10-Feb-2023 20:51:20 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home3/studiog1/public_html/index.php on line 27
+[10-Feb-2023 21:06:12 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home3/studiog1/public_html/index.php on line 27
+[27-Feb-2023 20:02:23 America/Mexico_City] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/studiog1/public_html/loginstudent.php on line 46
+[06-Mar-2023 18:12:16 America/Mexico_City] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/studiog1/public_html/loginstudent.php on line 46
+[06-Mar-2023 18:12:20 America/Mexico_City] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home3/studiog1/public_html/loginstudent.php on line 46

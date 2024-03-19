@@ -1,0 +1,56 @@
+  .preview {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+  }
+
+  .modal-lg {
+    max-width: 1000px !important;
+    
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+    width: 100%;
+  }
+
+
+
+  .text {
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #alert-container {
+    position: fixed;
+    /* para que siempre esté en la parte superior de la pantalla */
+    width: 100%;
+    /* para que ocupe toda la anchura de la pantalla */
+    z-index: 9999;
+    /* para que siempre esté encima de otros elementos */
+    text-align: center;
+    /* para centrar el elemento */
+  }
+
+  .alert {
+    opacity: 1;
+    /* para que el elemento sea visible al principio */
+    transition: opacity 3s ease-out;
+    /* para que el efecto de desvanecimiento dure 3 segundos */
+  }
